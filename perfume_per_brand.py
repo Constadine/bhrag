@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
 def main():
-    perfumes = pd.read_csv('perfumes/brands/creed.csv')
+    perfumes = pd.read_csv('perfumes/brands/yves-saint-laurent.csv')
 
     for index, row in perfumes.iterrows():
         url = row['URL']
@@ -29,6 +29,7 @@ def main():
             data = {
                 "name": json_data["name"],
                 "brand": json_data["brand"],
+                "photo_url": json_data["photo_url"],
                 "family": json_data["Olfactive_classification"][0]["family"],
                 "subfamily": json_data["Olfactive_classification"][0]["subfamily"],
                 "description": json_data["Description"],
@@ -50,6 +51,7 @@ def get_response(page: Page):
     {
     name
     brand
+    photo_url
     Olfactive_classification[] {
         family
         subfamily
