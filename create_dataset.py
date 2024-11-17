@@ -22,3 +22,12 @@ for i in range(len(df)):
 unique_concepts_df.fillna(0, inplace=True)
 
 df = pd.concat([df, unique_concepts_df], axis=1)
+df = df.iloc[:, -98:]
+
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+def get_top_n_similar(row, n=3):
+    sims = cosine_similarity([row], df.iloc[:, -98:]).flatten()
+    sims = sims[sims != 1] # remove self similarity
+    idx = np.argsort(sims)[-n:]
+    return pd.DataFrame({'similar': df.iloc[idx, 0], 'similarity': sims[idx]})
