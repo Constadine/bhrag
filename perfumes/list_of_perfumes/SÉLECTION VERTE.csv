@@ -1,2 +1,2 @@
-name,brand,family,subfamily,description,ingredients,origin,gender,year,concepts
-SÉLECTION VERTE,Creed,CITRUS,CITRUS,"Revitalising and sophisticated, Selection Very is a herbal, citrusy fresh perfume with delicate peppered notes.","['Citruses', 'Mint', 'Pepper', 'Peppermint', 'Ambergris', 'Herbs']",France,Male,1970,"['Fresh', 'Everyday', 'Casual', 'Day', 'Unisexe', 'Citrus', 'Dynamic', 'Sparkling', 'Invigorating', 'Acid']"
+name,brand,photo_url,family,subfamily,description,ingredients,origin,gender,year,concepts
+SÉLECTION VERTE,Creed,https://api-assets.wikiparfum.com/_resized/8ytmeyd1z4fhr5bvu356t4ouh79slddke8ylcxkbrqiglmcb54alij46ecl6-w500-q85.jpg,CITRUS,CITRUS,"Revitalising and sophisticated, Selection Very is a herbal, citrusy fresh perfume with delicate peppered notes.","['Citruses', 'Mint', 'Pepper', 'Peppermint', 'Ambergris', 'Herbs']",France,Male,1970,"['Fresh', 'Everyday', 'Casual', 'Day', 'Unisexe', 'Citrus', 'Dynamic', 'Sparkling', 'Invigorating', 'Acid']"

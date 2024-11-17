@@ -1,2 +1,2 @@
-name,brand,family,subfamily,description,ingredients,origin,gender,year,concepts
-AVENTUS ABSOLU 2023,Creed,WOODY,CITRUS,A bold scent that exudes confidence and sophistication.,"['Pomelo', 'Cardamom', 'Patchouli', 'Bergamot', 'Cedrat', 'Cinnamon', 'Ginger', 'Pink Pepper', 'Vetiver', 'Blackcurrant Bud']",France,Male,2023,"['Everyday', 'Casual', 'Robust', 'Elegant', 'Intense', 'Rich', 'Powerful', 'Autum', 'Day', 'Sparkling']"
+name,brand,photo_url,family,subfamily,description,ingredients,origin,gender,year,concepts
+AVENTUS ABSOLU 2023,Creed,https://api-assets.wikiparfum.com/_resized/nmrc3hnl045hp9lt3pp4c6lfgzfoll99c9ephrm2qu4i2wdyqh2tt9b52xd2-w500-q85.jpg,WOODY,CITRUS,A bold scent that exudes confidence and sophistication.,"['Pomelo', 'Cardamom', 'Patchouli', 'Bergamot', 'Cedrat', 'Cinnamon', 'Ginger', 'Pink Pepper', 'Vetiver', 'Blackcurrant Bud']",France,Male,2023,"['Everyday', 'Casual', 'Robust', 'Elegant', 'Intense', 'Rich', 'Powerful', 'Autum', 'Day', 'Sparkling']"

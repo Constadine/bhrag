@@ -11,10 +11,12 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
 def main():
-    perfumes = pd.read_csv('perfumes/brands/yves-saint-laurent.csv')
+    perfumes = pd.read_csv('perfumes/brands/armaf.csv')
 
     for index, row in perfumes.iterrows():
         url = row['URL']
+
+        print(f"Let's scrape: {url}")
         
         with sync_playwright() as p, p.chromium.launch(headless=False) as browser:
             # Create a new page in the browser and wrap it to get access to the AgentQL's querying API

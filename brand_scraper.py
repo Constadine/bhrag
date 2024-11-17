@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
 # Set the URL to the desired website
-BRAND = "yves-saint-laurent"
+BRAND = "armaf"
 URL = f"https://www.wikiparfum.com/en/brands/{BRAND}"
 
 

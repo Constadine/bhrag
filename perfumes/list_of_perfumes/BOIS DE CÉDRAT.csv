@@ -1,2 +1,2 @@
-name,brand,family,subfamily,description,ingredients,origin,gender,year,concepts
-BOIS DE CÉDRAT,Creed,CITRUS,CITRUS,"Fresh, woody, citrus, and light. Bois de Cedrat is a universal eau de toilette.","['Mandarin', 'Lemon', 'Lemon Tree', 'Bergamot', 'Ambergris', 'Cedarwood']",France,Unisex,1875,"['Everyday', 'Casual', 'Day', 'Citrus', 'Sparkling', 'Zesty', 'Light', 'Radiant', 'Orange', 'Sicily']"
+name,brand,photo_url,family,subfamily,description,ingredients,origin,gender,year,concepts
+BOIS DE CÉDRAT,Creed,https://api-assets.wikiparfum.com/_resized/qrcx7irhsb4vc1oansqh7wb4999wbai90jxh32x1euqwoiyspp3r9xctyo8t-w500-q85.jpg,CITRUS,CITRUS,"Fresh, woody, citrus, and light. Bois de Cedrat is a universal eau de toilette.","['Mandarin', 'Lemon', 'Lemon Tree', 'Bergamot', 'Ambergris', 'Cedarwood']",France,Unisex,1875,"['Everyday', 'Casual', 'Day', 'Citrus', 'Sparkling', 'Zesty', 'Light', 'Radiant', 'Orange', 'Sicily']"
