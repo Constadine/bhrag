@@ -17,10 +17,16 @@ def get_top_n_similar(row, n=3) -> pd.DataFrame:
 app = FastAPI()
 df = create_dataset()
 
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+
+
 @app.post("/similarity")
 async def get_similarity(outfit_url: str):
 
-    concept_weights = generate_concept_weights(df)
+    concept_weights = generate_concept_weights(outfit_url)
 
     top_three = get_top_n_similar(concept_weights, n=3)
     data = {
